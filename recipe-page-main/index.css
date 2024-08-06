@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+
+}
+
+.parent {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 40%;
+    margin: 8rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    
+    
+    align-items: start;
+    background-color: hsl(0, 0%, 100%);
+}
+
+h1{
+    font-family: 'Young Serif',sans-serif;
+    font-weight: 28px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+p{
+    opacity: 65%;
+    margin-bottom: 16px;
+    font-family: 'Outfit';
+}
+
+.pre{
+    font-family: 'Outfit';
+    width: 100%;
+    background-color: hsl(330, 100%, 98%);
+    padding: 19px ;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.pre h3{
+
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 16px;
+    
+}
+
+
+.time {
+    font-size: 14px;
+    
+}
+.instruction li::marker,.ingredient li::marker,.pre li::marker,h2{
+    color: hsl(14, 45%, 36%);
+
+
+}
+
+.instruction,.ingredient li,.pre li{
+    margin-bottom: 8px;
+
+
+}
+span{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+h2{  
+    font-size: 26px;
+    font-family: 'Young Serif';
+    font-weight: 100;
+    margin-bottom: 16px;
+}
+
+.ingredient,.time,.instruction{
+    
+    margin-left: 25px;
+    margin-bottom: 16px;
+}
+
+
+.time,.ingredient li,.instruction li{
+    opacity: 65%;
+    font-family: 'Outfit';
+    
+}
+
+hr{
+    width: 100%;
+    opacity: 65%;
+    margin-bottom: 16px;
+}
+
+.tabel{
+    display: grid;
+    
+    
+    
+
+    
+    grid-template-columns: 1fr 1fr;
+    
+}
+.tabel p{
+    margin-left: 30px;
+    margin-right: 200px;    
+}
+
+.two{
+    grid-column: 1/4;
+   
+}
+
+.three {
+    color: hsl(14, 45%, 36%);
+    opacity: 100%;
+    font-weight: 600;
+    margin-left: 150px;
+}
+
+
+@media screen and (max-width: 378px) {
+    /* Styles for viewports 480px wide or wider */
+    .parent{
+        display: block;
+        width: 100vh;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .dum{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
